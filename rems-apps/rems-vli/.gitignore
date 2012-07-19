@@ -1,0 +1,10 @@
+bin
+target
+.settings
+.project
+.classpath
+.svn
+
+/out
+/.idea/workspace.xml
+/*.iws

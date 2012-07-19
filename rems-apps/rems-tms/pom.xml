@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+	
+	<parent>
+		<groupId>com.micoinfo.rems</groupId>
+  	<artifactId>rems-apps</artifactId>
+  	<version>0.01</version>
+	</parent>
+	
+	<groupId>com.micoinfo.rems</groupId>
+	<artifactId>ctms-tms</artifactId>
+	<version>0.01</version>
+	<packaging>war</packaging>
+	<name>${project.artifactId}</name>
+	
+	<dependencies>
+		<dependency>
+  		<groupId>com.asiainfo.obd</groupId>
+  		<artifactId>lm</artifactId>
+  		<version>1.0</version>
+  		<type>jar</type>
+		</dependency>
+		<dependency>
+  <groupId>com.asiainfo.obd</groupId>
+  <artifactId>openBossClient</artifactId>
+  <version>1.0</version>
+  <type>jar</type>
+</dependency> 
+<dependency>
+  <groupId>com.asiainfo.obd</groupId>
+  <artifactId>openClient</artifactId>
+  <version>1.0</version>
+  <type>jar</type>
+</dependency>
+<dependency>
+  <groupId>com.asiainfo.obd</groupId>
+  <artifactId>vbjorb</artifactId>
+  <version>1.0</version>
+  <type>jar</type>
+</dependency>
+<dependency>
+  <groupId>com.asiainfo.obd</groupId>
+  <artifactId>vbsec</artifactId>
+  <version>1.0</version>
+  <type>jar</type>
+</dependency>
+	</dependencies>
+	<build>
+		<finalName>rems-tms</finalName>
+	</build>
+</project>
